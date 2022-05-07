@@ -7,7 +7,7 @@ module.exports = config({
     index: path.join(__dirname, 'src', 'index.js'),
   },
   output: {
-    path: path.join(__dirname, 'out'),
+    path: path.join(__dirname, 'bundle'),
   },
   options: {
     sourceMaps: false,
